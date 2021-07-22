@@ -104,12 +104,54 @@ img {
 
 .stats {
   display: grid;
-  grid-template-columns: 38% 62%;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.stats__text {
+  padding-right: 10rem;
 }
 
 .stats__text > p {
   margin-top: 1em;
+}
+
+.stats__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.stats__info > *:first-child {
+  align-self: flex-start;
+}
+
+.stats__info > *:last-child {
+  align-self: flex-end;
+}
+
+.stats__item {
+  width: 80%;
+  background-color: var(--clr-magenta-100);
+  padding: 1em 0 1em 2em;
+  border-radius: 5px;
+}
+
+.stars {
+    display: flex;
+}
+
+.stars > p {
+    margin-left: 2rem;
+}
+
+.icon {
+    background-image: url('images/icon-star.svg');
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
 }
 
 .reviews {
@@ -119,11 +161,11 @@ img {
 }
 
 .reviews > *:first-child {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .reviews > *:last-child {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .card {
@@ -145,3 +187,4 @@ img {
   overflow: hidden;
   margin-right: 2rem;
 }
+
