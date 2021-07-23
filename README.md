@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/social-proof-section-QENAXNBn_)
+- [Live Site URL](https://tttinh.github.io/frontendmentor_004/)
 
 ## My process
 
